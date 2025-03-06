@@ -1,9 +1,9 @@
 function manipulateArray() {
-    return new Promise((resolve) => {
+    return new Promise((resolve) => { 
         setTimeout(() => {
             console.log("Initial array:", [1, 2, 3, 4]); 
             resolve([1, 2, 3, 4]);
-        }, 3000);
+        }, 0);
     })
     .then((arr) => {
         return new Promise((resolve) => {
