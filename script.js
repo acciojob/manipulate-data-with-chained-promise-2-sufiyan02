@@ -3,7 +3,7 @@ function manipulateArray() {
         setTimeout(() => {
             console.log("Initial array:", [1, 2, 3, 4]); 
             resolve([1, 2, 3, 4]);
-        }, 0);
+        }, 3000);
     })
     .then((arr) => {
         return new Promise((resolve) => {
